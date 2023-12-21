@@ -42,9 +42,9 @@ chmod +x /tmp/curl
 
 # download/extract latest guppyscreen
 if [ x"$1" == x"zbolt" ]; then
-    /tmp/curl -L https://github.com/ballaswag/guppyscreen/releases/latest/download/guppyscreen-zbolt.tar.gz -o /tmp/guppyscreen.tar.gz
+    /tmp/curl -L https://github.com/mikebcbc/guppyscreen/releases/latest/download/guppyscreen-zbolt.tar.gz -o /tmp/guppyscreen.tar.gz
 else
-    /tmp/curl -L https://github.com/ballaswag/guppyscreen/releases/latest/download/guppyscreen.tar.gz -o /tmp/guppyscreen.tar.gz
+    /tmp/curl -L https://github.com/mikebcbc/guppyscreen/releases/latest/download/guppyscreen.tar.gz -o /tmp/guppyscreen.tar.gz
 fi
 tar xf /tmp/guppyscreen.tar.gz -C /usr/data/
 
